@@ -1,6 +1,6 @@
-#include <iostream>
-using namespace std;
-#include <vector>
+// Source : https://leetcode.com/problems/two-sum/description/
+// Author : Annur Hassan
+
 
 
 class Solution {
@@ -24,13 +24,3 @@ public:
         return {};
     }
 };
-
-int main() {
-    Solution test;
-    vector<int> nums = {3, 2, 4};
-    vector<int> index = test.twoSum(nums, 6);
-
-    for (int i = 0; i < index.size(); i++) {
-        cout << index[i] << " ";
-    }
-}
